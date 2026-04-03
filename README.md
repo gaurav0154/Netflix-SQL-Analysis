@@ -1,32 +1,61 @@
-GitHub ke liye README.md file bahut important hoti hai kyunki recruiters wahi dekhte hain. Aap ise copy-paste kar sakte hain:
+🎬 Netflix Data Analysis using SQL
+📌 Project Overview
+This project involves a comprehensive analysis of Netflix's movies and TV shows data using PostgreSQL. The goal is to extract actionable insights and solve 15 business problems to understand Netflix's content strategy, regional dominance, and audience preferences.
 
-🎬 Netflix Video Streaming Analysis using SQL
-Project Overview
-This project involves a comprehensive analysis of Netflix's movies and TV shows data using PostgreSQL. The goal is to extract actionable insights and answer 15 specific business questions to understand Netflix's content strategy and regional dominance.
-
-Key Features
-Data Cleaning: Handled missing values in the director and country columns.
-
-Content Analysis: Analyzed the distribution of Movies vs. TV Shows.
-
-Geographical Insights: Identified top content-producing countries (e.g., India, USA).
-
-Advanced Queries: Used Window Functions (RANK), CTEs, UNNEST, and String Functions to process complex data.
-
-Categorization: Developed a classification system for content based on descriptions.
-
-Tech Stack
+🛠️ Tech Stack
 Database: PostgreSQL
 
 Tool: pgAdmin 4 / SQL Shell
 
-Skills: Data Analysis, SQL Query Optimization, Business Intelligence
+Skillset: Data Cleaning, CTEs, Window Functions, String Manipulation
 
-Business Impact
-This analysis helps in understanding how Netflix can:
+📂 Dataset
+The dataset used for this project is the Netflix Titles dataset, which includes:
 
-Invest in Local Creators: Focus on high-performing regions like India.
+Show ID: Unique identifier for every movie/show.
 
-Improve Retention: By identifying popular genres and long-running TV shows.
+Type: Identifier - Movie or TV Show.
 
-Content Safety: Categorizing content for better user recommendations.
+Title: Title of the movie/show.
+
+Director: Director of the movie/show.
+
+Cast: Actors involved in the movie/show.
+
+Country: Country where the movie/show was produced.
+
+Date Added: Date when it was added to Netflix.
+
+Release Year: Actual release year of the movie/show.
+
+Rating: TV Rating of the movie/show.
+
+Duration: Total duration of the movie/show.
+
+Listed In: Genre of the movie/show.
+
+Description: Summary of the content.
+
+🚀 Business Problems Solved
+1. Content Distribution
+Analyzed the count of Movies vs TV Shows to understand Netflix's focus.
+
+2. Regional Analysis
+Identified the Top 5 Countries with the highest content production, specifically focusing on India's growth.
+
+3. Content Categorization
+Classified content as 'Bad' or 'Good' based on keywords like 'violence' and 'kill' in the descriptions for Safety Analysis.
+
+4. Advanced Filtering
+Found the Longest Movie based on duration.
+
+Identified Top 10 Actors from India with the most appearances.
+
+Tracked content added in the Last 5 Years.
+
+📈 Key Insights & Recommendations
+Invest in Local Talent: Based on the high volume of content from India, Netflix should continue collaborating with Local Creators.
+
+Genre Expansion: Focus on the most frequent Ratings (like TV-MA) to match audience demand.
+
+Retention Strategy: Promoting TV Shows with more than 5 Seasons helps in reducing subscriber churn.
