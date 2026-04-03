@@ -1,11 +1,9 @@
 -- 1. Count the number of Movies vs TV Shows
-```sql
 SELECT 
     type,
     COUNT(*) as total_content
 FROM netflix
 GROUP BY 1;
-```
 
 
 -- 2. Find the most common rating for movies and TV shows
