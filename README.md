@@ -155,8 +155,8 @@ The dataset contains the following columns:
 
 ```
 📦 netflix-sql-project
- ┣ 📜 netflix_dataset.csv
- ┣ 📜 queries.sql
+ ┣ 📜 netflix.csv
+ ┣ 📜 Netflix project SQL query.sql
  ┗ 📜 README.md
 ```
 
