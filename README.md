@@ -12,20 +12,30 @@ Tool: pgAdmin 4 / SQL Shell
 
 Skillset: Data Cleaning, CTEs, Window Functions, String Manipulation
 
-## Dataset
+## Dataset Schema
 
-The dataset used for this project is the Netflix Titles dataset, which includes:
 Show ID: Unique identifier for every movie/show.
+
 Type: Identifier - Movie or TV Show.
+
 Title: Title of the movie/show.
+
 Director: Director of the movie/show.
+
 Cast: Actors involved in the movie/show.
+
 Country: Country where the movie/show was produced.
+
 Date Added: Date when it was added to Netflix.
+
 Release Year: Actual release year of the movie/show.
+
 Rating: TV Rating of the movie/show.
+
 Duration: Total duration of the movie/show.
+
 Listed In: Genre of the movie/show.
+
 Description: Summary of the content.
 
 ## Business Problems Solved
