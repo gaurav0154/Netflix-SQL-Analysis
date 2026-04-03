@@ -1,4 +1,4 @@
-🎬 Netflix Data Analysis using SQL
+#🎬 Netflix Data Analysis using SQL
 📌 Project Overview
 This project involves a comprehensive analysis of Netflix's movies and TV shows data using PostgreSQL. The goal is to extract actionable insights and solve 15 business problems to understand Netflix's content strategy, regional dominance, and audience preferences.
 
